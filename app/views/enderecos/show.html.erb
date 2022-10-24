@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cep:</strong>
+  <%= @endereco.cep %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @endereco.address %>
+</p>
+
+<p>
+  <strong>Complement:</strong>
+  <%= @endereco.complement %>
+</p>
+
+<p>
+  <strong>District:</strong>
+  <%= @endereco.district %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @endereco.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @endereco.state %>
+</p>
+
+<p>
+  <strong>Ibge cod:</strong>
+  <%= @endereco.ibge_cod %>
+</p>
+
+<%= link_to 'Edit', edit_endereco_path(@endereco) %> |
+<%= link_to 'Back', enderecos_path %>

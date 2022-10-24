@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cep: MyString
+  address: MyString
+  complement: MyString
+  district: MyString
+  city: MyString
+  state: MyString
+  ibge_cod: MyString
+
+two:
+  cep: MyString
+  address: MyString
+  complement: MyString
+  district: MyString
+  city: MyString
+  state: MyString
+  ibge_cod: MyString

@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @municipe.name %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @municipe.cpf %>
+</p>
+
+<p>
+  <strong>Cns:</strong>
+  <%= @municipe.cns %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @municipe.email %>
+</p>
+
+<p>
+  <strong>Birth date:</strong>
+  <%= @municipe.birth_date %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @municipe.phone %>
+</p>
+
+<p>
+  <strong>Photo:</strong>
+  <%= @municipe.photo %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @municipe.status %>
+</p>
+
+<%= link_to 'Edit', edit_municipe_path(@municipe) %> |
+<%= link_to 'Back', municipes_path %>
